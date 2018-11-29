@@ -16,7 +16,7 @@
  * @param {string} consumerSecret - OAuth consumer secret of the application.
  * @param {number} [logLevel] - Log level. Select one of {@link Tumblr.LOG_NONE}, {@link Tumblr.LOG_ERROR} or {@link Tumblr.LOG_DEBUG}.
  */
-var Tumblr = function(consumerKey, consumerSecret, logLevel) {
+var Tumblr = function(consumerKey, consumerSecret, logLevel, token) {
 	function sha1(source) {
 		source = source.concat(0x80);
 
@@ -146,7 +146,7 @@ var Tumblr = function(consumerKey, consumerSecret, logLevel) {
 	 * current consumer token.
 	 * @memberof# Tumblr
 	 */
-	//this.token = null;
+	this.token = token;
 };
 
 /** Tumblr authorization URL. */
