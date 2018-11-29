@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name        tumblr-lib-gm
-// @description Tumblr api(v2) library for Grease Monkey scripts.
-// @license     https://raw.githubusercontent.com/reppets/tumblr-lib-gm/master/LICENSE
-// @namespace   reppets.net
-// @version     1.0.2
+// @name        tumblr-client
+// @description TamperMonkey library for interacting with the tumblr api.
+// @license     https://github.com/InitHello/tumblr-client/blob/master/LICENSE
+// @namespace   inithello.net
+// @version     1.0.3
 // @require     https://cdn.rawgit.com/ddo/oauth-1.0a/91557b7ef8c38dad6a22f9471a5d0dc216a1afd4/oauth-1.0a.js
 // @grant       GM_xmlhttpRequest
 // ==/UserScript==
