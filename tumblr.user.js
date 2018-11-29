@@ -147,6 +147,7 @@ var Tumblr = function(consumerKey, consumerSecret, logLevel, token) {
 	 * @memberof# Tumblr
 	 */
 	this.token = token;
+	console.log({thistoken: this.token, token: token});
 };
 
 /** Tumblr authorization URL. */
